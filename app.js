@@ -18,7 +18,7 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-
+     listItem.className="new-task-element"
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
