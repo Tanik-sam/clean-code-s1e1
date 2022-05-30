@@ -1,9 +1,9 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
-  }
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
 
 .start-screen {
   width: 500px;
@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
   
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .start-screen { 
     text-align: center;
@@ -45,16 +45,16 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 
 .button {
@@ -67,7 +67,7 @@ input,button{
   cursor: pointer;
 }
 
-.button:hover {
+.button: hover {
   color: #3a3A3a;
 }
 
@@ -99,7 +99,7 @@ label[for="new-task"] {
 
 .input-text,
 .add-item__task:focus {
-    color: #333;
+  color: #333;
 }
   
   /* New Task */
@@ -152,7 +152,7 @@ li > * {
 }
   
 /* Completed */
-.complited > .checkbox{
+.complited > .checkbox {
   text-decoration: line-through
   color: #888;
 }
@@ -161,15 +161,15 @@ li > * {
 .incomplited-list >.input-text,
 .new-task-element>.add-item__task,
 .new-task-element>.input-text {
-  display:none;
+  display: none;
 }
 
 .todo__edit-mode > .input-text,
 .todo__edit-mode>.add-item__task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 } 
 
 .todo__edit-mode > .checkbox {
- display:none;
+ display: none;
 }
