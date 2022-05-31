@@ -34,10 +34,12 @@ body {
   margin: 0 auto 0;
 }
 
-.add-item__task, .checkbox, .input-text {
+.add-item__task, 
+.checkbox, 
+.input-text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item__name {
@@ -138,7 +140,7 @@ li > * {
 }
 
 .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .button__delete img {
@@ -167,7 +169,7 @@ li > * {
 .todo__edit-mode > .input-text,
 .todo__edit-mode>.add-item__task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 } 
 
 .todo__edit-mode > .checkbox {
