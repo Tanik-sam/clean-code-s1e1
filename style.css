@@ -155,7 +155,8 @@ li > * {
   
 /* Completed */
 .complited-list > .checkbox,
-.new-task-element > .checkbox {
+.complited > .new-task-element > .checkbox,
+.complited > .incomplited-list > .checkbox{
   text-decoration: line-through;
   color: #888;
 }
